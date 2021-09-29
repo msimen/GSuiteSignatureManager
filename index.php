@@ -5,7 +5,7 @@ use Moometric\mooSignature;
 // Update with your GSuite domain and admin email address
 $admin_email = "admin@domain.com";
 $domain = "domain.com";
-$sigPath ="/your/project/path/signatures/";
+$sigPath ="/home/ubuntu/signatures/";
 cd
 $mooSig = new mooSignature($domain, $admin_email);
 
