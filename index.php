@@ -6,7 +6,6 @@ use Moometric\mooSignature;
 $admin_email = "admin@domain.com";
 $domain = "domain.com";
 $sigPath ="/home/ubuntu/signatures/";
-cd
 $mooSig = new mooSignature($domain, $admin_email);
 
 // OPTIONAL - Setting the service account path and signature path if not using default location
