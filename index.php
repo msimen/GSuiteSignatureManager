@@ -1,13 +1,12 @@
 <?php
-require __DIR__ . '/home/ubuntu/vendor/autoload.php';
+require_once '/home/ubuntu/vendor/autoload.php';
 
 use Moometric\mooSignature;
 // Update with your GSuite domain and admin email address
 $admin_email = "admin@domain.com";
 $domain = "domain.com";
 $sigPath ="/your/project/path/signatures/";
-$serviceAccountPath = "/your/project/path/local_vars/";
-
+cd
 $mooSig = new mooSignature($domain, $admin_email);
 
 // OPTIONAL - Setting the service account path and signature path if not using default location
