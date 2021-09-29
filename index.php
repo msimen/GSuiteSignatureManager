@@ -1,5 +1,5 @@
 <?php
-require_once '/home/ubuntu/vendor/autoload.php';
+require_once '/var/www/html/vendor/autoload.php';
 
 use Moometric\mooSignature;
 // Update with your GSuite domain and admin email address
