@@ -6,3 +6,4 @@ $mooSig = new mooSignature("gmail.com", "msimens@gmail.com");
 $mooSig->addSettingServiceAccountPath("/home/ubuntu/local_vars/");
 // Optionally set the path where your signatures are stored.
 $mooSig->addsettingSignaturePath("/home/ubuntu/signatures/");
+$mooSig->addSettingPreviewSignature(True);
